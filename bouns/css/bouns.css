@@ -1,0 +1,155 @@
+*{
+	font-family: "微软雅黑";
+}
+html{
+  background: url(../img/bounsBg.png) repeat
+}
+.login-box{
+	width:350px;
+	border-radius: 10px;
+	box-shadow: 0 0 32px #eee;
+	margin: 10% auto;
+	overflow: hidden;
+	padding-bottom: 20px;
+	font-family: "微软雅黑";
+	display: none;
+	background: #fff;
+	box-shadow: 0 0 6px #868686;
+}
+h1{
+	padding: 0 20px;
+	font-size: 21px;
+	background: #eee;
+	color: #666;
+	line-height: 54px;
+}
+.login-box input{
+	font-family: "微软雅黑";
+	font-size: 16px;
+	padding: 10px;
+	margin-top: 20px;
+	border: 1px solid #eee;
+	width: calc(100% - 20px);
+	border-radius: 50px;
+	text-indent: 30px;
+}
+.login-box input:focus, .pupil-box input:focus{
+	border: 1px solid #3EAEFB;
+}
+.login-content>div{
+	position: relative;
+}
+.login-box button, .pupil-box button{
+	margin-top: 20px;
+	line-height: 34px;
+	background: #3eaefb;
+	color: #fff;
+	width: calc(50%);
+	margin: 20px 25% 0 25%;
+	border-radius: 50px;
+	font-family: "微软雅黑";
+}
+.icon-box{
+	width: 21px;
+	position: absolute;
+	left: 12px;
+	top: 30px;
+}
+.icon-box img{
+	width: 100%;
+}
+.login-renderer{
+	height: 120px;
+	line-height: 120px;
+	text-align: center;
+	color: #fff;
+	background: -webkit-linear-gradient(left top, #b8e2ff , #3eaefb);
+}
+.login-content{
+	padding: 0 20px;
+}
+.header{
+	background: #3EAEFB;
+	color: #fff;
+	line-height: 60px;
+	font-family: "微软雅黑";
+	padding: 0 20px;
+	font-size: 21px;
+	font-weight: bold;
+}
+.pupil-box{
+	width:380px;
+	border-radius: 10px;
+	box-shadow: 0 0 32px #eee;
+	margin: 10% auto;
+	overflow: hidden;
+	padding-bottom: 20px;
+	display: none;
+	background: #fff;
+	box-shadow: 0 0 6px #868686;
+}
+.pupil-content input{
+	font-family: "微软雅黑";
+	font-size: 16px;
+	padding: 10px;
+	margin-top: 20px;s
+	border: 1px solid #eee;
+	width: calc(100% - 91px);
+	border-radius: 5px;
+	border: 1px solid #eee;
+}
+.teacher-box{
+	width:500px;
+	border-radius: 10px;
+	box-shadow: 0 0 32px #eee;
+	margin: 10% auto;
+	overflow: hidden;
+	padding-bottom: 20px;
+	font-family: "微软雅黑";
+	display: none;
+	background: #fff;
+	box-shadow: 0 0 6px #868686;
+}
+p{
+	line-height: 54px;
+	font-size: 18px;
+	font-weight: bold;
+	color: #222;
+	padding: 0 20px;
+	background: #eee;
+}
+.teacher-box>div{
+	overflow: hidden;
+	line-height: 70px;
+	background: #f7f7f7;
+	margin-top: 20px;
+	padding: 10px;
+	margin-left: 20px;
+    margin-right: 20px;
+}
+.teacher-box>div div{
+	width: 50%;
+	float: left;
+}
+.teacher-box em{
+	color: #666;
+}
+.pupil-content {
+	margin-left: 20px;
+    margin-right: 20px;
+}
+button:hover{
+	box-shadow: 0 2px 16px #3EAEFB;
+	transition: box-shadow 0.5s;
+}
+button{
+	box-shadow: 0 0 0px #3EAEFB;
+	transition: box-shadow 0.3s;
+}
+.login-out{
+	position: absolute;
+	right: 20px;
+	top: 0;
+	cursor: pointer;
+	font-weight: normal;
+}

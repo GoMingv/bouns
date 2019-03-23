@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title></title>
+		<link rel="stylesheet" href="css/reset.css" />
+		<link rel="stylesheet" href="css/bouns.css" />
+	</head>
+	<body>
+		<div>
+			<div class="header"><span onclick="clearBouns()">全年一次性奖金（年终奖）个人所得税<span><div onclick="loginOut()" class="login-out">退出登录</div></div>
+			<div class="login-box">
+				<!--<div class="login-renderer">
+					全年一次性奖金（年终奖）个人所得税
+				</div>-->
+				<p>用户登录</p1>
+				<div class="login-content">
+					<div>
+						<input placeholder="请输入用户名" id="user-name" type="text" />
+						<div class="icon-box">
+							<img src="img/icon-user.png" />
+						</div>
+					</div>
+					<div>
+						<input placeholder="请输入密码" id="password" type="password" />
+						<div class="icon-box">
+							<img src="img/icon-password.png" />
+						</div>
+					</div>
+					<div>
+						<button onclick="goLogin()">立即登录</button>
+					</div>
+				</div>
+			</div>
+		    <div class="pupil-box">
+		    	<P>合理调整年终奖方案——应纳个税数值</P>
+		    	<div class="pupil-content">
+		    		<span id="user-show-name">第一组：</span>
+		    		<input id="price" placeholder="请输入金额" type="text" />
+		    	</div>
+		    	<div>
+					<button onclick="submitPrice()">提交</button>
+				</div>
+		    </div>
+		    <div class="teacher-box">
+		    	<P>合理调整年终奖方案——应纳个税数据对比</P>
+		    	<div>
+		    		<div>
+		    			<span >第一组：</span>
+		    			<em id="one"></em>
+		    		</div>
+		    		<div>
+		    			<span >第二组：</span>
+		    			<em id="two"></em>
+		    		</div>
+		    		<div>
+		    			<span >第三组：</span>
+		    			<em id="three"></em>
+		    		</div>
+		    		<div>
+		    			<span>第四组：</span>
+		    			<em id="four"></em>
+		    		</div>
+		    	</div>
+		    </div>
+		</div>
+		<img src="img/shui.png" style="mix-blend-mode: multiply;position: fixed;top: 0;z-index:-1;width: 100%;height: 100%" />
+	    <script type="text/javascript" src="js/jquery-2.1.0.js" ></script>
+	    <script type="text/javascript" src="js/bouns.js?v=1.01" ></script>
+	</body>
+</html>
