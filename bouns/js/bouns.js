@@ -70,7 +70,7 @@ function submitPrice() {
 	name = $('#user-show-name').text();
 	if(price) {
 		$.ajax({
-		  url: 'https://www.iosso.cn/setBouns',
+		  url: 'http://www.iosso.cn/setBouns',
 		  dataType: 'json',
 		  data: {
 		  	name: name.split('：')[0],
@@ -86,15 +86,15 @@ function submitPrice() {
 
 function getBouns() {
 	$.ajax({
-	  url: 'https://www.iosso.cn/getBouns',
+	  url: 'http://39.108.84.40:8099/api/redis/getValue?key=shool1',
 	  dataType: 'json',
 	  success: function(data) {
-	  	$('#one').text(data['第一组'] || 0);
-	  	$('#two').text(data['第二组'] || 0);
-	  	$('#three').text(data['第三组'] || 0);
-	  	$('#four').text(data['第四组'] || 0);
-	  	$('.login-box').hide();
-		$('.teacher-box').show();
+// 	  	$('#one').text(data['第一组'] || 0);
+// 	  	$('#two').text(data['第二组'] || 0);
+// 	  	$('#three').text(data['第三组'] || 0);
+// 	  	$('#four').text(data['第四组'] || 0);
+// 	  	$('.login-box').hide();
+// 		$('.teacher-box').show();
 	  }
 	});
 }
